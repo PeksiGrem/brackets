@@ -10,6 +10,8 @@ const config5 = [['(', ')'], ['|', '|']];
 const config6 = [['1', '2'], ['3', '4'], ['5', '6'], ['7', '7'], ['8', '8']];
 const config7 = [['(', ')'], ['[', ']'], ['{', '}'], ['|', '|']];
 
+
+
 it('should check if brackets sequence is correct 1', () => {
   assert.equal(check('()', config1), true);
 });
